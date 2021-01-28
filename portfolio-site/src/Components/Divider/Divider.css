@@ -1,0 +1,19 @@
+div.dimgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.ocean {
+    transform: rotateY(180deg);
+    filter: saturate(10%);
+}
+
+.ocean:hover {
+    filter: saturate(200%);
+    transition: ease-in 1s;
+}

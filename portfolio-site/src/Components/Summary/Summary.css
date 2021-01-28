@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    overflow: hidden;
+    margin: 0;  
+    background-color: #405270;
+}
+
+div.summary {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    color: lightgrey;
+    /* transition: font-size ease-out 1s; */
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px 10px;
+    border: 1px solid white;
+}
+
+img.sideimg {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: ease-out 1s;
+}
+
+.sideimg:hover {
+    border-radius: 0%;
+    transition: ease-in 1s;
+}
+
+h1.title {
+    width: 100%;
+}
+
+/* .summary:hover {
+    font-size: 25px; 
+    transition: font-size ease-in 1s;
+} */
+
+@media only screen and (max-width: 900px) {
+    img.sideimg {
+        width: 300px;
+        height: 300px;
+        padding: 2px;
+    }
+    div.summary {
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.container {
+        display: block;
+    }
+    img.sideimg {
+        width: 200px;
+        height: 200px;
+        padding: 2px;
+    }
+    div.summary {
+        font-size: 10px;
+    }
+}
