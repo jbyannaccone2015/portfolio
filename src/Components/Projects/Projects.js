@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div class="tupper">
             <div class="project1">
-                <div class="p1-name">CALCULATOR</div>
+                <div class="p1-name"><a className="calc-proj" href="https://f0p5c.csb.app/">CALCULATOR</a></div>
             </div>
             <div class="project2">
                 <div class="p2-name">COMING SOON</div>

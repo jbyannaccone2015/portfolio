@@ -57,6 +57,15 @@ div.p2-name:hover {
     transition: ease-in .5s;
 }
 
+.calc-proj {
+    text-decoration: none;
+}
+
+.calc-proj:visited {
+    text-decoration: none;
+    color: black;
+}
+
 /* @media only screen and (max-width: 500px) {
     div.p1-name {
         padding-top: 100px;
